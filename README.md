@@ -23,5 +23,8 @@ O projeto consiste em um CRUD de Produtos, implementando as principais funcional
 - [ ] Documentação - Pendente
 - [ ] Testes - Pendente
 
-## Auto
+## Observação
+É possível notar alguns trechos de código comentados, pois a princípio, foram testadas diferentes abordagens para um mesmo cenário. Porém, tais códigos estão sujeitos a alterações.
+
+## Autor
 *   **Tayluan Santos** - [TayluanSantos](github.com)
