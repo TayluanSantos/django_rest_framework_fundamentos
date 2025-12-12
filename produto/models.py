@@ -4,10 +4,12 @@ from django.db import models
 
 class Produto (models.Model):
 
-    nome = models.CharField(max_length=200) 
-    descricao = models.TextField(blank=True,null=True)
+    nome = models.CharField(max_length=255) 
+    descricao = models.TextField(max_length=1000,blank=True,null=True)
     preco = models.DecimalField(max_digits=9,decimal_places=2)
-    estoque = models.IntegerField()
+    quantidade_estoque = models.IntegerField()
+    criado_em = models.DateField(auto_now_add=True)
+    atualizado_em = models.DateField(auto_now=True)
 
     class Meta:
         verbose_name = 'Produto'
